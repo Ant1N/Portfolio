@@ -1,0 +1,38 @@
+.menu {
+    top: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    z-index: 5;
+  
+    .logo {
+      margin-left: 40px;
+  
+      a {
+        text-decoration: none;
+        color: #f0f0f0;
+        font-size: 2rem;
+        font-family: 'Bonheur Royale', cursive;
+      }
+    }
+  
+    .items ul {
+      display: flex;
+      list-style: none;
+      margin-right: 50px;
+    }
+  }
+  
+  .menu-items {
+    margin-left: 20px;
+  
+    a {
+      text-decoration: none;
+      color: #f0f0f0;
+      font-size: 15px;
+      text-transform: uppercase;
+      font-style: italic;
+    }
+  }

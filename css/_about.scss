@@ -1,0 +1,150 @@
+.about-wrapper {
+    font-family: 'Sora', sans-serif;
+}
+
+/* custom scroll bar  */
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  
+  /* header  */
+  
+  .header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    z-index: 10;
+  
+    .logo {
+      margin-left: 40px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+  
+  /* home  */
+  
+  .container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .home .home-heading {
+    margin-left: 30rem;
+    width: 35rem;
+    font-size: 1.3rem;
+  
+    span {
+      font-style: oblique;
+    }
+  }
+  
+  /* about  */
+  
+  .about-heading h1 {
+    font-size: 150px;
+  }
+  
+  .about-description p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: lighter;
+  }
+  
+  .image {
+    width: 500px;
+    height: 300px;
+    background: url(../assets/img3.jpeg) no-repeat 50% 50%;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 300px;
+  }
+  
+  /* contact  */
+  
+  .contact-content {
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .contact-heading h1 {
+    font-size: 120px;
+  }
+  
+  .contact-reel p {
+    font-size: 50px;
+    margin-top: 10px;
+    font-weight: 300;
+  
+    a {
+      color: blue;
+    }
+  }
+
+  
+  /* media queries  */
+  @media only screen and (max-width: 530px) {
+    .home-bg {
+      display: none;
+    }
+  
+    .home .home-heading h1 {
+      font-size: 50px;
+    }
+  
+    .about-content {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .about-heading h1 {
+      font-size: 80px;
+    }
+  
+    .about-description p {
+      font-size: 15px;
+    }
+  
+    .image {
+      width: 250px;
+      height: 250px;
+      margin-left: 50px;
+    }
+  
+    .contact-heading h1 {
+      font-size: 60px;
+    }
+  
+    .contact-reel p {
+      font-size: 30px;
+    }
+  
+    .contact-bg {
+      display: none;
+    }
+  
+    .social-links ul li a {
+      font-size: 15px;
+    }
+  }

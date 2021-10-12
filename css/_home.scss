@@ -1,0 +1,133 @@
+.index {
+  position: fixed !important;
+}
+
+.content {
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+.container {
+  position: relative;
+  width: 560px;
+  height: 380px;
+  margin: 50px 500px 20px 80px;
+}
+
+.c0 {
+  h1 {
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    width: 600px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #c9c9c9;
+    font-weight: lighter;
+  }
+
+  .c0-main {
+    color: #f0f0f0;
+    font-size: 100px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+}
+
+.container .c-title {
+  position: absolute;
+  left: 40px;
+  bottom: -40px;
+  font-family: 'Monument';
+  font-style: italic;
+  text-transform: lowercase;
+  font-size: 50px;
+}
+
+.c-title a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.c1 {
+  background: url(/assets/img1.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  -webkit-transition: .6s;
+  transition: .6s;
+  opacity: .5;
+}
+
+.c2 {
+  background: url(/assets/img2.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  -webkit-transition: .6s;
+  transition: .6s;
+  opacity: .5;
+}
+
+.c3 {
+  background: url(/assets/img3.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  -webkit-transition: .6s;
+  transition: .6s;
+  opacity: .5;
+}
+
+.c4 {
+  background: url(/assets/img4.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  -webkit-transition: .6s;
+  transition: .6s;
+  opacity: .5;
+}
+
+.c1:hover, .c2:hover, .c3:hover, .c4:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: .6s;
+  transition: .6s;
+  opacity: 1;
+}
+
+.container:hover .c-title a {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px #fffd95;
+  -webkit-text-decoration: underline .5px;
+  text-decoration: underline .5px;
+}
+
+.social-links {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 80px;
+  z-index: 2;
+}
+
+.social-links-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-right: 50px;
+
+  li {
+    margin-left: 20px;
+
+    a {
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
